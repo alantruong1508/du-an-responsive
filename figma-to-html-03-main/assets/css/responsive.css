@@ -109,6 +109,31 @@
     width: 90%;
     text-align: start;
   }
+  /* áp dụng cho phần work */
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  /* áp dụng cho phần about */
+  .about-row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .about__img--small {
+    display: none;
+  }
+  .about__media {
+    width: 100%;
+  }
+  .about__img--big {
+    width: 100%;
+    border-radius: 15px;
+    margin: 25px auto;
+  }
+  .about-content {
+    width: 90%;
+    text-align: center;
+  }
 }
 
 /* áp dụng cho tablet */
